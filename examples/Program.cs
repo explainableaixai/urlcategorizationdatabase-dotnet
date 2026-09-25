@@ -1,0 +1,1 @@
+using AlphaQuantum.URLCategorizationDatabase;var client=new URLCategorizationDatabaseClient(Environment.GetEnvironmentVariable("AQ_API_KEY")!);Console.WriteLine(await client.ClassifyAsync("bbc.com"));
