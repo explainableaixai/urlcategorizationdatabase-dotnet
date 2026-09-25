@@ -1,6 +1,6 @@
 # AlphaQuantum.URLCategorizationDatabase
 
-A .NET 8 client that fills the gaps in a URL category file. Organisations that license [licensed URL categories with an API top-up](https://www.urlcategorizationdatabase.com) match most traffic against the file locally. The rest (new registrations, obscure hosts, fresh campaign sites) goes to this client, which classifies it live and returns content categories from the IAB taxonomy.
+A .NET 8 client that fills the gaps in a URL category file. Organisations that license the [URL classification database](https://www.urlcategorizationdatabase.com) match most traffic against the file locally. The rest (new registrations, obscure hosts, fresh campaign sites) goes to this client, which classifies it live and returns content categories from the IAB taxonomy.
 
 ```bash
 dotnet add package AlphaQuantum.URLCategorizationDatabase
@@ -103,11 +103,11 @@ Pass one when you need a proxy, custom certificates or shorter timeouts. For tes
 - **CRM hygiene**: tag company websites with an industry before leads are routed.
 - **Analytics**: add a category dimension to referrer and outbound-click reports.
 - **Brand safety**: screen placement lists before a campaign goes live.
-- **Security reporting**: label outbound traffic by topic, then leave blocking to [block and allow categories for filters](https://www.webfilteringdatabase.com), which are designed for that job.
+- **Security reporting**: label outbound traffic by topic, then leave blocking to [cloud based web filtering system](https://www.webfilteringdatabase.com/web-filtering-database.php) categories, which are designed for that job.
 
 ## AI hosts deserve their own label
 
-A general taxonomy files AI products under technology or software. To [spot AI services inside category exports](https://www.aitoolsblocklist.com), cross-check the same hosts against the AI register. For an organisation-wide view of AI use, the log audit produces an [AI adoption report from DNS data](https://www.shadowaitools.com).
+A general taxonomy files AI products under technology or software. To [prevent AI data leakage](https://www.aitoolsblocklist.com/prevent-data-leakage-ai.php), cross-check the same hosts against the AI register. For an organisation-wide view of AI use, the log audit produces a [visual AI risk report for board meetings](https://www.shadowaitools.com/for-cisos.php).
 
 ## Other packages
 
